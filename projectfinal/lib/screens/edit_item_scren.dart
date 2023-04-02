@@ -99,7 +99,9 @@ class _EditItemScreenState extends State<EditItemScreen> {
               height: 20,
             ),
             ElevatedButton(
-                style: style, onPressed: _deleteItem, child: const Text("ลบ")),
+                style: style,
+                onPressed: _deleteItem,
+                child: const Text("ลบ")), //ปุ่มลบ
             const SizedBox(height: 10),
             ElevatedButton(
                 style: style,
